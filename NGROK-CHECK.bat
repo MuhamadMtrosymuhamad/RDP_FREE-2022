@@ -14,6 +14,7 @@ curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercont
 curl -o "C:\Users\Public\Desktop\npp.7.9.4.Installer.x64.exe" https://raw.githubusercontent.com/charan2004153/RDP_Windows2019/main/Files/npp.7.9.4.Installer.x64.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Everything.exe" https://raw.githubusercontent.com/charan2004153/RDP_Windows2019/main/Files/Everything.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\BANDIZIP-SETUP.exe" https://raw.githubusercontent.com/charan2004153/RDP_Windows2019/main/Files/BANDIZIP-SETUP.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\idman641build2.exe" https://raw.githubusercontent.com/MuhamadMtrosymuhamad/RDP_FREE-2022/main/idman641build2.exe > out.txt 2>&1
 
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './DisablePasswordComplexity.ps1'" > out.txt 2>&1
 diskperf -Y >nul
